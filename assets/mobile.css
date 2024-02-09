@@ -1,0 +1,73 @@
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/assets/img/pantera_fondo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  color: #94f375;
+  text-align: center;
+  /* position: relative; */
+}
+
+/* .wave{
+  background-image: url(../img/svg.png);
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 8;
+} */
+
+/* MENU */
+
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  align-items: flex-end; /* Alineo los elementos al final del contenedor */
+}
+
+.menu ul li {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Cambié var(--color-enlace) a #fff */
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* .active {
+box-shadow: var(--color-boxshadow);
+border-radius: 5px;
+} */
+
+.menu ul li a:hover {
+color: var(--color-link);
+
+}
+/* ----------------INDEX ------------------------ */
+
+/* H1 TITULO PRINCIPAL DEL INDEX */
+.titulo_principal {
+margin-top: 80%; /* Ajusta según sea necesario para centrar verticalmente */
+color: var(--titulo-principal-color); /* Color del texto */
+font-size: 36px; /* Tamaño de la fuente, ajusta según sea necesario */
+text-align: center; /* Centra el texto horizontalmente */
+font-family: var(--font-family-titulo);
+}
