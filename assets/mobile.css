@@ -200,3 +200,132 @@ hr{
   transform: skew(15deg, 18deg);
   margin: 17px;
 } */
+
+/* ------------- CONTACTO ---------- */
+
+.consulta {
+  color: var(--titulo-principal-color);
+  text-align: center;
+  margin: 10px;
+}
+
+.consulta::before {
+  content: "👉";
+}
+
+.container_contacto {
+    margin: 15px;
+  
+}
+
+.container_formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+textarea {
+  border: 1px solid #c9c9c9;
+  box-shadow: 0 0 2px #cccccc inset;
+  padding: 1px;
+  color: gray;
+  transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="radio"]:focus,
+textarea:focus {
+  color: black;
+}
+
+input[type=submit] {
+  display: block;
+  border-radius: 2px;
+  width: 100%;
+  padding: 3px;
+  background-color: #82be7a;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0px 0px 2px #c42ea8;
+}
+
+.formulario_consulta label input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+input[type="radio"]:checked + label {
+  color: #333;
+  background-color: #82be7a;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+
+/* FOOTER */
+
+.footer-container{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 30PX;
+}
+
+
+
+/* Media query para pantallas más pequeñas*/
+@media screen and (max-width: 320px) {
+
+    .menu-iconos{
+        display: flex;
+        justify-content: flex-end;
+        padding:20px;
+    }
+
+    #navbar:target ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        padding: 30px;
+        /* height: 100dvh; */
+      }
+
+      .close{
+        display: none;
+      }
+
+      #navbar:target .open{
+        display: none;
+       
+      }
+
+      #navbar:target .close{
+        display: block;
+       
+      }
+
+    .menu ul li a{
+        color:rgb(186, 61, 16);
+
+    }
+    .menu ul {
+      align-items: flex-start; /* Alineo los elementos al inicio en dispositivos móviles */
+      display: flex;
+      flex-direction: column;
+    }
+  }

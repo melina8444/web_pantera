@@ -32,13 +32,47 @@
           <li><a href="./index.html" class="active">Inicio</a></li>
           <li><a href="./historia.html">historia</a></li>
           <li><a href="./galeria.html">Galeria</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
+          
         </ul>
       </nav>
-      <h1 class="titulo_principal">Entre sombras y luces!!!</h1>
+      <h1 class="titulo_principal">Contacto para más info</h1>
     </header>
 
-    <main></main>
+    <main>
+        <h2 class="consulta">Envianos tu consulta...</h2>
+  
+        <section class="container_contacto">
+          <div class="container_formulario">
+          <form action="#" method="post" class="formulario_contacto">
+            <fieldset>
+              <legend>Nombre</legend>
+              <!-- <label for="nombre">Nombre:</label> -->
+              <input type="text" name="nombre" placeholder="Ingrese su nombre" required />
+            </fieldset>
+            <fieldset>
+              <legend>Email</legend>
+              <!-- <label for="email">Email:</label> -->
+              <input type="email" name="email" placeholder="Ingrese su email" required />
+            </fieldset>
+            <fieldset>
+              <legend>Mensaje</legend>
+            <!-- <label for="mensaje">Mensaje:</label> -->
+            <textarea name="mensaje" rows="4" placeholder="Ingrese su mensaje" required></textarea>
+            </fieldset>
+  
+            <fieldset>
+              <legend>Género</legend>
+            <!-- <label for="genero">Género:</label> -->
+            <input type="radio" name="genero" value="hombre" required />Hombre
+            <input type="radio" name="genero" value="mujer" required />Mujer
+            </fieldset>
+  
+          
+            <input type="submit" value="Enviar Formulario" />
+          </form>
+        </div>
+        </section>
+      </main>
 
     <footer>
       <div class="footer-container">
