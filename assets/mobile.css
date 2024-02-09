@@ -71,3 +71,27 @@ font-size: 36px; /* Tamaño de la fuente, ajusta según sea necesario */
 text-align: center; /* Centra el texto horizontalmente */
 font-family: var(--font-family-titulo);
 }
+
+/* ----------------HISTORIA ------------------------ */
+
+/* H1 TITULO DE LA HISTORIA */
+.titulo_historia {
+  margin-top: 80%; /* Ajusta según sea necesario para centrar verticalmente */
+  color: var(--titulo-principal-color); /* Color del texto */
+  font-size: 36px; /* Tamaño de la fuente, ajusta según sea necesario */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: var(--font-family-titulo);
+}
+
+.parrafo_primera_section {
+  color: dimgrey;
+  text-align: center;
+  border-style: double;
+  margin-top: 8px;
+}
+
+/* SECTION DE LA HISTORIA */
+.primer_section {
+  text-align: justify;
+  padding: 15px;
+}
