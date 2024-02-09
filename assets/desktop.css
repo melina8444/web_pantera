@@ -1,0 +1,55 @@
+/* Media query para pantallas más grandes*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* MENU */
+        .menu {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .menu-iconos{
+            display: none;
+        }
+    
+        .menu ul li a{
+            color:rgb(186, 16, 163);
+    
+        }
+    
+    
+    
+        .titulo_principal {
+            margin-top: auto;
+            color: chartreuse;
+        }
+    
+        .titulo_historia {
+            margin-top: auto;
+        }
+    
+        .titulo_galeria{
+            margin-top: auto;
+        }
+    
+       
+        @keyframes img_info {
+            0% {color: chartreuse;}
+            30% {color:rgb(89, 31, 225)e;}
+            50% {color: rgb(28, 181, 223);}
+            70% {color: rgb(255, 106, 0);}
+            100% {color: chartreuse;}
+         }
+    
+         .titulo_1{
+            animation: img_info;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-play-state: running;
+         }
+    
+    }
+    
+    
