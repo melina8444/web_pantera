@@ -2,23 +2,29 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="/assets/style.css"/>
-    <meta name="author" content="Melina Yangüez"/>
-    <meta name="description" content="Tp creado con requisitos de ADA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <meta name="author" content="Melina Yangüez" />
+    <meta name="description" content="Tp creado con requisitos de ADA" />
     <meta
       name="keywords"
       content="HTML, IFRAME, IMAGENES, PANTERA, LUNA LA PANTERA"
     />
 
     <!-- META PARA FACEBOOK -->
-    <meta property="og:title" content="¿Conoces a Luna la pantera?"/>
-    <meta property="og:description" content="Te comento la historia de Luna la pantera"/>
+    <meta property="og:title" content="¿Conoces a Luna la pantera?" />
+    <meta
+      property="og:description"
+      content="Te comento la historia de Luna la pantera"
+    />
 
     <!-- META PARA TWITTER -->
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="¿Conoces a Luna la pantera?"/>
-    <meta name="twitter:description" content="Te comento la historia de Luna la pantera"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="¿Conoces a Luna la pantera?" />
+    <meta
+      name="twitter:description"
+      content="Te comento la historia de Luna la pantera"
+    />
 
     <link
       rel="shortcut icon"
@@ -38,24 +44,34 @@
   </head>
   <body>
     <header class="hero">
-      <div class="wave"></div>
-      <nav class="menu">
+      <!-- MENU -->
+      <nav class="menu" id="menu">
+
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="#">Luna</a>
+        </div>
+
         <!-- ICONO DE MENU Y CIERRE -->
-        <div class="menu-iconos">
-          <a href="#navbar" class="open"><i class="fa-solid fa-bars"></i></a>
+        <div class="menu_iconos">
+          <a href="#menu" class="open"><i class="fa-solid fa-bars"></i></a>
           <a href="#" class="close"><i class="fa-solid fa-close"></i></a>
         </div>
+
         <!-- MENU -->
-        <ul>
+        <ul class="links_menu">
           <li><a href="./index.html" class="active">Inicio</a></li>
           <li><a href="./historia.html">historia</a></li>
           <li><a href="./galeria.html">Galeria</a></li>
           <li><a href="./contacto.html">Contacto</a></li>
         </ul>
       </nav>
+
       <div class="titulo_h1">
         <h1 class="titulo_principal">Entre sombras y luces!!!</h1>
+        <p>Historia de Luna, la pantera.</p>
       </div>
+
       <div class="wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

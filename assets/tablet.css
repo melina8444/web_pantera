@@ -8,11 +8,11 @@
         justify-content: space-around;
     }
 
-    .menu-iconos{
+    .menu_iconos{
         display: none;
     }
     
-    .menu ul li a{
+    .menu .links_menu li a{
         color:rgb(16, 135, 186);
 
     }
