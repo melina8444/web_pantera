@@ -1,0 +1,21 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* Estilos que se aplicarán para pantallas con ancho entre 320px y 768px */
+    /* Agrega tus estilos aquí */
+  
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-iconos{
+        display: none;
+    }
+    
+    .menu ul li a{
+        color:rgb(16, 135, 186);
+
+    }
+
+    
+}
